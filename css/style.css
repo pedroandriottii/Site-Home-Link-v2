@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    position: relative;
+    width: 1920px;
+    height: 1100px;
+    background: linear-gradient(269.14deg, #71DDFF 0.72%, #005672 97.8%);
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+
+}
+/*Logomarca*/
+.header img{
+    height: 26px;
+    width: 285px;
+
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-content{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main{
+    border-top: 0.4px solid white;
+
+}
+
+.primary-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primary-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.primary-image{
+    padding-top: 20px;
+    margin-right: 300px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.primary-content-text-h1{
+    font-family: 'Roboto', sans-serif;
+    color: #D8F1FF;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.primary-content-text-h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.button{
+    background-color: D8F1FF;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #005672;
+    font-size: 18px;
+}
+
+.seccondary-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 32px;
+}
+
+.seccondary-content-text{
+    font-family: 'Roboto', sans-serif;
+    color: #D8F1FF;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    border-top: 0.4px solid white;
+    padding-top: 20px;
+
+}
+
+.seccondary-content-mix{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.seccondary-content-descriptions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccondary-content-mix-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccondary-content-mix-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccondary-content-mix-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccondary-content-mix-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccondary-content-mix h4{
+    font-family: 'Roboto', sans-serif;
+    color: #D8F1FF;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+.social-1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 10px;
+    margin-top: 250px;
+}
